@@ -1,0 +1,9 @@
+---
+filter: erb
+---
+<p>Navigation</p>
+<ul>
+	<li><%= link_to_page('Home') %></li>
+	<li><%= link_to_page('Developers') %></li>
+	<li><%= link_to_page('Cases') %></li>
+</ul>

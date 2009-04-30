@@ -1,0 +1,10 @@
+---
+title:      Casper
+created_at: 2009-04-30 11:34:58.653649 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. I'm Casper

@@ -1,0 +1,16 @@
+---
+title:      Cases
+created_at: 2009-04-30 11:35:07.480892 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. This is a collection of our latest cases
+
+<ul>
+	<li>case1</li>
+	<li>case2</li>
+	<li>case3</li>
+</ul>

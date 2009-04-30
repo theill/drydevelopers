@@ -1,0 +1,14 @@
+---
+extension: css
+filter:    erb
+layout:    nil   # no layout
+---
+
+body {
+	background-color: #333;
+	color: #fff;
+}
+
+a {
+	color: #CF6;
+}

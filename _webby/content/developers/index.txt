@@ -1,0 +1,16 @@
+---
+title:      Developers
+created_at: 2009-04-30 11:34:47.706619 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. These are the developers
+
+<ul>
+	<li><%= link_to_page('Casper') %></li>
+	<li><%= link_to_page('Jakob') %></li>
+	<li><%= link_to_page('Peter') %></li>
+</ul>
