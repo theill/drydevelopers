@@ -5,6 +5,56 @@ filter:
   - erb
   - textile
 ---
-h1. <%= h(@page.title) %>
 
-p. I'm Jakob
+<div class="introduction">
+  <div class="content">
+    <h1><%= h(@page.title) %></h1>
+
+    <p>Jakob is a trained developer with a passion for the web, a knack for clarity, and a strong eye for design and usability. He is particularly interested in user centric websites and beautiful code.</p>
+
+    <h2>Specialties</h2>
+
+    <p>Web application development, user interface design, code quality.</p>
+  </div>
+  
+  <img src="/images/developers/jakob.jpg" alt="Jakob" width="180" height="240" />
+</div>
+
+<div class="elsewhere columns">
+  <div class="twitter column">
+    Wait, when did Twitter start allowing more than 140 characters in tweets? Example: <a href="http://twitter.com/mentalizer/status/1772071546">http://twitter.com/mentaliz...</a> has 165
+  </div>
+  <div class="blog column">
+    <h2>Recent blog posts by Jakob</h2>
+    <ul>
+      <li><a href="http://mentalized.net/journal/2009/04/17/launch_lokalebasen/" title="Launch: Lokalebasen">Launch: Lokalebasen</a></li>
+    </ul>
+  </div>
+  <div class="links column">
+    <h2>Jakob elsewhere</h2>
+    <ul>
+      <li><a href="http://mentalized.net/">mentalized.net</a></li>
+      <li><a href="http://substancelab.com/">substance lab</a></li>
+      <li><a href="http://workingwithrails.com/">Working With Rails</a></li>
+      <li><a href="http://twitter.com/mentalizer">Twitter</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="projects">
+  <h2>Projects</h2>
+  <div class="columns">
+    <div class="column">
+      project #1
+    </div>
+    <div class="column">
+      project #2
+    </div>
+    <div class="column">
+      project #3
+    </div>
+    <div class="column">
+      project #4
+    </div>
+  </div> <!-- .columns -->
+</div> <!-- .projects -->

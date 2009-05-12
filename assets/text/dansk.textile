@@ -1,0 +1,5 @@
+h1. Et dansk behov fortjener en dansk-udviklet løsning
+
+DRY Developers er internationalt orienteret og laver projekter til hele verden, men vi sidder i Danmark og vi har mange danske kunder. Vi er imponerede hvis du som kunde kan fortælle os præcis hvad du vil have og lade være med at ombestemme dig undervejs, men vi forventer det ikke. Vi tror på, at en løsning kun kan opfylde dine behov, hvis vi tænker selv og er i tæt kontakt med dig under hele udviklingsforløbet. Vi leverer kvalitet i international klasse, men det er kombinationen med dansk kreativitet og selvstændighed der gør dit projekt til en succes.
+
+DRY Developers tæller en række prominente og meget erfarne danske webudviklere indenfor Ruby on Rails. Vi har været med fra starten, og vi har set hvordan flere og flere danske virksomheder og iværksættere har fået øjnene op for, hvor hurtigt der kan opnås solide og velfungerende resultater med frameworket. Vi har også erfaring med udvikling i .NET og PHP, med desktop- og iPhone-udvikling samt en række andre teknologier.
