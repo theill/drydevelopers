@@ -14,7 +14,7 @@ filter:
 
     <h2>Specialties</h2>
 
-    <p>Stuff, awesomeness, and web</p>
+    <p>Web application development, user interface design, code quality.</p>
   </div>
   
   <img src="/images/developers/jakob.jpg" alt="Jakob" width="180" height="240" />
