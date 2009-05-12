@@ -1,0 +1,136 @@
+body {
+	background: #1a1a25 url(/images/background.gif) 50% 0;
+	color: #aaaaaa;
+	font-family: 'helvetica neue', helvetica, arial, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin-bottom: 1em;
+	margin-top: 0;
+}
+
+.wrapper {
+	background: url(/images/spectrum.jpg) 50% 0 no-repeat;
+	min-height: 500px;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 780px;
+}
+
+/* Headlines
+------------ */
+
+h1, h2, h3 {
+	color: #ffffff;
+	font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+	font-weight: normal;
+	margin: 0;
+	margin-bottom: 0.2em;
+	padding-bottom: 0.3em;
+}
+
+h1 {
+	background: url(/images/divider.gif) 0 100% repeat-x;
+	font-size: 1.96em;
+}
+
+h2 {
+	background: url(/images/divider.gif) 0 100% repeat-x;
+	font-size: 1.4em;
+}
+
+/* Links */
+
+a {
+	font-weight: bold;
+}
+
+a:link {
+	color: #6094c6;
+}
+
+a:visited {
+	color: #4b7399;
+}
+
+a:hover {
+	color: #7faad3;
+}
+
+/* Lists */
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul li {
+	margin-left: 1.5em;
+}
+
+
+/* Lay out structure
+-------------------- */
+
+.header {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+/* Column definitions */
+.columns {
+	margin-left: -20px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.column {
+	/* Default, 4 columns */
+	float: left;
+	margin-left: 20px;
+	width: 180px;
+}
+
+
+/* Page introductions
+--------------------- */
+
+.introduction {
+	font-size: 18px;
+	overflow: hidden;
+}
+
+.introduction h2 {
+	background: none;
+}
+
+.introduction img {
+	float: left;
+}
+
+.introduction .content {
+	float: right;
+	width: 580px;
+}
+
+
+/* Profile page
+--------------- */
+div.twitter {
+	background-color: #ffffff;
+	color: #333333;
+	padding: 10px;
+	width: 160px;
+}
+
+.elsewhere .blog,
+.elsewhere .links {
+	width: 280px;
+}
+
