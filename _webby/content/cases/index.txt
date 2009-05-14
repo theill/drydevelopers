@@ -10,7 +10,7 @@ h1. <%= h(@page.title) %>
 p. This is a collection of our latest cases
 
 <ul>
-	<%- cases = @pages.find(:all, :in_directory => "cases", :recursive => true, :sort_by => "mtime", :reverse => true, :limit => 3) -%>
+	<%- cases = @pages.find(:all, :in_directory => "cases", :recursive => false, :sort_by => :launched_on, :reverse => true) -%>
 	<%- cases = cases.delete_if { |a| a == @page }.each do |page| -%>
 	<li><%= link_to_page(page) %></li>
 	<%- end -%>
