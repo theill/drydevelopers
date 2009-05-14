@@ -27,7 +27,7 @@ filter:    erb
     <div class="wrapper">
       <div class="content">
         <div class="header">
-          <%= link_to('DRY developers', '/') %>
+          <%= link_to('DRY developers', '/') %> | <%= link_to('Developers', '/developers') %> | <%= link_to('Cases', '/cases') %>
         </div>
   		<%= @content %>
       </div> <!-- .content -->

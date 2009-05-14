@@ -7,7 +7,7 @@ module BreadcrumbsHelper
   # Create breadcrumb links for the current page. This will return an HTML
   # <ul></ul> object.
   #
-  def breadcrumbs( page )
+  def breadcrumbs(page)
     list = ["<li>#{h(page.title)}</li>"]
     loop do
       page = @pages.parent_of(page)

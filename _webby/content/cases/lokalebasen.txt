@@ -1,0 +1,10 @@
+---
+title:      Lokalebasen
+created_at: 2009-04-30 11:35:07.480892 +02:00
+filter:
+  - erb
+  - textile
+---
+h1. <%= h(@page.title) %>
+
+p. A single case
