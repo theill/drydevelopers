@@ -63,6 +63,10 @@ a:hover {
 	color: #7faad3;
 }
 
+a img {
+	border: none;
+}
+
 /* Lists */
 
 ul {

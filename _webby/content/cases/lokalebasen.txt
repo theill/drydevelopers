@@ -5,6 +5,10 @@ launched_on: 2009-05-20
 filter:
   - erb
   - textile
+key: lokalebasen
+developers: 
+  - casper
+  - jakob
 ---
 h1. <%= h(@page.title) %>
 
